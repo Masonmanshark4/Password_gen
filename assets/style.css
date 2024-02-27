@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.generator-wrapper {
+    position: relative;
+    margin-top: 20px;
+}
+
+#generateBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.passwordBox {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px dotted #333;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
